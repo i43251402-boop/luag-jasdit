@@ -1,0 +1,85 @@
+{
+  "services": {
+    "1": {
+      "nama": "Editing Video Pendek",
+      "deskripsi": "Reels, TikTok, Shorts. Potong, subtitle, musik, transisi.",
+      "harga": 75000,
+      "aktif": true
+    },
+    "2": {
+      "nama": "Editing Video Panjang",
+      "deskripsi": "YouTube atau dokumentasi acara, hingga 15 menit.",
+      "harga": 250000,
+      "aktif": true
+    },
+    "3": {
+      "nama": "Edit Foto dan Retouch",
+      "deskripsi": "Color grading dan retouch per 10 foto.",
+      "harga": 50000,
+      "aktif": true
+    }
+  },
+  "users": {
+    "UID_ADMIN": {
+      "nama": "Admin",
+      "email": "admin@booking.com",
+      "wa": "088213330433",
+      "role": "admin",
+      "created_at": "2026-10-20T18:30:59Z"
+    },
+    "UID_USER_1": {
+      "nama": "Rina Aulia",
+      "email": "rina.aulia@gmail.com",
+      "wa": "081234567801",
+      "role": "user",
+      "created_at": "2026-10-25T09:15:00Z"
+    },
+    "UID_USER_2": {
+      "nama": "Dimas Pratama",
+      "email": "dimas.pratama@gmail.com",
+      "wa": "082145678902",
+      "role": "user",
+      "created_at": "2026-10-26T14:40:00Z"
+    }
+  },
+  "bookings": {
+    "-BOOKING_1": {
+      "kode": "BK-A1B2C3",
+      "user_id": "UID_USER_1",
+      "service_id": 2,
+      "tanggal": "2026-11-07",
+      "jam": "10:00",
+      "catatan": "Dokumentasi wisuda, durasi sekitar 12 menit",
+      "link": "https://drive.google.com/drive/folders/contoh-wisuda",
+      "status": "Dikonfirmasi",
+      "created_at": "2026-10-25T09:30:00Z"
+    },
+    "-BOOKING_2": {
+      "kode": "BK-D4E5F6",
+      "user_id": "UID_USER_2",
+      "service_id": 3,
+      "tanggal": "2026-11-10",
+      "jam": "13:00",
+      "catatan": "Retouch 20 foto prewedding, tone warm dan natural",
+      "link": "",
+      "status": "Menunggu konfirmasi",
+      "created_at": "2026-10-26T14:55:00Z"
+    },
+    "-BOOKING_3": {
+      "kode": "BK-G7H8I9",
+      "user_id": "UID_USER_1",
+      "service_id": 1,
+      "tanggal": "2026-11-12",
+      "jam": "16:00",
+      "catatan": "Edit 2 video Reels, tambah subtitle",
+      "link": "",
+      "status": "Dikerjakan",
+      "created_at": "2026-10-27T19:20:00Z"
+    }
+  },
+  "closed_days": {
+    "2026-11-27": { "keterangan": "Libur internal" },
+    "2026-12-25": { "keterangan": "Libur Natal" },
+    "2027-01-01": { "keterangan": "Tahun Baru" }
+  }
+}
