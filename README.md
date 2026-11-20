@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # PinkCut Studio - Booking Jasa Editing (PHP + MySQL)
 
 ## Cara menjalankan (XAMPP)
@@ -15,3 +16,6 @@ Nomor WA, jam slot, metode pembayaran, dan user/password MySQL.
 =======
 # sistem-informasi-booking
 >>>>>>> 5c597cfea58fa88d0966d28ae97903b46c0fbb59
+=======
+# Luag-jasdit
+>>>>>>> de03d1febcb3cdf1b7c524168783a8ae466e93e7
